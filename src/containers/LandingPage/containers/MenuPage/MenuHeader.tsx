@@ -1,5 +1,7 @@
 import { FC } from 'react';
 import classNames from './MenuPage.module.scss'
+import logo from '/src/assets/icons/logo.svg'
+import burgerClose from '/src/assets/icons/burger-close.svg'
 
 const MenuHeader:FC = () => {
   const scrollUp = ():void => {
@@ -9,11 +11,11 @@ const MenuHeader:FC = () => {
     <div className={classNames.header}>
       <img
         className={classNames.header__logo}
-        src="/src/assets/icons/logo.svg"
+        src={logo}
       />
       <img
         className={classNames.header__burger}
-        src="/src/assets/icons/burger-close.svg"
+        src={burgerClose}
         onClick={scrollUp}
       />
     </div>
