@@ -1,0 +1,34 @@
+.intro_page {
+  height: 100vh;
+  background: no-repeat url("src/assets/images/black-brick-wall-background.jpg");
+  position: relative;
+  &__burger {
+    position: absolute;
+    top: 52px;
+    right: 82px;
+    width: 50px;
+    &:hover {
+      cursor: pointer;
+    }
+    @media screen and (max-width: 768px) {
+      top: 20px;
+      right: 20px;
+      width: 30px;
+    }
+  }
+  &__logo {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%);
+    @media screen and (max-width: 768px) {
+      width: 200px;
+    }
+  }
+  &__scroll {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
