@@ -1,5 +1,6 @@
 import { FC } from 'react';
 import classNames from './IntroPage.module.scss'
+import img from '/src/assets/icons/burger-open.svg'
 
 const IntroPage:FC = () => {
   const scrollDown = ():void => {
@@ -9,12 +10,12 @@ const IntroPage:FC = () => {
     <div className={classNames.intro_page}>
       <img
         className={classNames.intro_page__burger}
-        src="/src/assets/icons/burger-open.svg"
+        src={img}
         onClick={scrollDown}
       />
       <img
         className={classNames.intro_page__logo}
-        src="/src/assets/icons/logo.svg"
+        src="/public/vite.svg"
       />
       <img
         className={classNames.intro_page__scroll}
