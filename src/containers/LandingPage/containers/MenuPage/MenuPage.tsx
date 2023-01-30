@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import classNames from './MenuPage.module.scss'
-import MenuHeader from "./MenuHeader";
-import MenuFooter from "./MenuFooter";
-import MenuContent from "./MenuContent";
+import MenuHeader from './MenuHeader';
+import MenuFooter from './MenuFooter';
+import MenuContent from './MenuContent';
 
 const MenuPage:FC = () => {
   return (
