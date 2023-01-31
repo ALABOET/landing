@@ -6,7 +6,7 @@ const MenuContent:FC = () => {
     <div className={classNames.content}>
       <div>Каталог</div>
       <div>Покупателям</div>
-      <div>Доставка товаров</div>
+      <div>Доставка</div>
       <div>Контакты</div>
     </div>
   )
