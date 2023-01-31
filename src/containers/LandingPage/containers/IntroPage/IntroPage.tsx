@@ -7,12 +7,11 @@ import background from '/src/assets/images/black-brick-wall-background.jpg'
 
 const IntroPage:FC = () => {
   const scrollDown = ():void => {
-    window.scrollTo({ top: 1000, left: 0, behavior: 'smooth' })
+    window.scrollTo({ top: window.innerHeight, left: 0, behavior: 'smooth' })
   }
   return (
     <div
       className={classNames.intro_page}
-      style={{ backgroundImage: `url("${background}")` }}
     >
       <img
         className={classNames.intro_page__burger}
