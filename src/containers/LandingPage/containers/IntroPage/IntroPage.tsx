@@ -18,14 +18,17 @@ const IntroPage:FC = () => {
         className={classNames.intro_page__burger}
         src={burgerOpen}
         onClick={scrollDown}
+        alt="Burger open image"
       />
       <img
         className={classNames.intro_page__logo}
         src={logo}
+        alt="Logo image"
       />
       <img
         className={classNames.intro_page__scroll}
         src={scroll}
+        alt="Scroll image"
       />
     </div>
   )

@@ -12,11 +12,13 @@ const MenuHeader:FC = () => {
       <img
         className={classNames.header__logo}
         src={logo}
+        alt="Logo image"
       />
       <img
         className={classNames.header__burger}
         src={burgerClose}
         onClick={scrollUp}
+        alt="Burger close image"
       />
     </div>
   )
