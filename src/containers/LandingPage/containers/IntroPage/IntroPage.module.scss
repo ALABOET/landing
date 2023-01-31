@@ -3,7 +3,7 @@
   position: relative;
   .title {
     position: absolute;
-    top: 30%;
+    top: 24%;
     transform: translateX(-50%);
     left: 50%;
     font-family: 'Montserrat', sans-serif;
@@ -15,6 +15,7 @@
     font-feature-settings: 'kern' off;
     color: #BCBCBC;
     transition: all ease .5s;
+    text-align: center;
     &:hover {
       color: antiquewhite;
     }
