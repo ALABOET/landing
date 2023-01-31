@@ -3,7 +3,7 @@ import classNames from './IntroPage.module.scss'
 import burgerOpen from '/src/assets/icons/burger-open.svg'
 import logo from '/src/assets/icons/logo.svg'
 import scroll from '/src/assets/icons/scroll-down.svg'
-import background from '/src/assets/images/black-brick-wall-background.jpg'
+import background from '/src/assets/images/black-brick-wall-background.webp'
 
 const IntroPage:FC = () => {
   const scrollDown = ():void => {
@@ -12,6 +12,7 @@ const IntroPage:FC = () => {
   return (
     <div
       className={classNames.intro_page}
+      style={{ backgroundImage: `url("${background}")` }}
     >
       <img
         className={classNames.intro_page__burger}
