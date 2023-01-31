@@ -14,6 +14,7 @@ const IntroPage:FC = () => {
       className={classNames.intro_page}
       style={{ backgroundImage: `url("${background}")` }}
     >
+      <div className={classNames.title}>Строительные материалы</div>
       <img
         className={classNames.intro_page__burger}
         src={burgerOpen}
